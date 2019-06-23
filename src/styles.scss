@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+    font-family: rockwell, sans-serif;
+}
+p {
+    font-size: 1rem;
+    color: 	#404040;
+}
+
+@for $i from 1 through 6 {
+    h#{7 - $i} {
+        color: #383838;
+    }
+}
+
+input {
+    @extend body;
+    padding: 20px 5px 15px 5px;
+    font-size: 0.875rem;
+}
+button {
+    @extend input;
+}
+
+.success-snackbar {
+    background-color: #39C16C;
+}
+
+.flex {
+    display: flex;
+}

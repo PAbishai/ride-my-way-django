@@ -9,9 +9,10 @@ export const environment = {
     authDomain: "ride-my-way-7317e.firebaseapp.com",
     databaseURL: "https://ride-my-way-7317e.firebaseio.com",
     projectId: "ride-my-way-7317e",
-    storageBucket: "",
-    messagingSenderId: "634088845027",
-  }
+    storageBucket: "ride-my-way-7317e.appspot.com",
+    messagingSenderId: "634088845027"
+  },
+  url: 'local.ride-my-way.com'
 };
 
 /*

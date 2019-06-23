@@ -1,0 +1,29 @@
+.mission {
+    margin-block-start: 150px;
+    max-width: 40%;
+    p {
+        font-size: 1.25rem;
+    }
+    h1 {
+        font-size: 2.5rem;
+        max-width: 90%;
+    }
+}
+.get-started {
+    margin-block-start: 50px;
+    button{
+        padding-inline-end: 50px;
+        padding-inline-start: 70px;
+        font-size: 1rem;
+        box-shadow: 0 1px 7px rgba(0,0,0,.05);
+        &.google{
+            background: url("/assets/images/google.png") no-repeat;
+            background-size: 30px auto;
+            background-position: 20px center;
+        }
+        &:hover{
+            cursor: pointer;
+            border-color: rgba(0,0,0,.54);
+        }
+    }
+}

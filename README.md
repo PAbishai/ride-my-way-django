@@ -3,12 +3,12 @@ Ride My Way app App is a social carpooling application that provides a platform 
 
 The core features are:
 
-    Users can create an account and log in.
-    Drivers can add ride offers.
-    Passengers can view all available ride offers from drivers who are their friends.
-    Passengers can see the details of a ride offer and request to join the ride. E.g What time the ride leaves, where it is headed e.t.c
-    Drivers can view the requests to the ride offer they created.
-    Drivers can either accept or reject a ride request.
+    1. Users can create an account and log in.
+    2. Drivers can add ride offers.
+    3. Passengers can view all available ride offers from drivers who are their friends.
+    4. Passengers can see the details of a ride offer and request to join the ride. E.g What time the ride leaves where it is headed e.t.c
+    5. Drivers can view the requests to the ride offer they created.
+    6. Drivers can either accept or reject a ride request.
 
 # Developement details
 
